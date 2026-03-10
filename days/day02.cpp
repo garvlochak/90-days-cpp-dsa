@@ -28,4 +28,17 @@ int main()
     {
         cout << "Not eligible" << endl;
     }
+
+    // Program 3: Largest of two numbers
+    int x, y;
+    cin >> x >> y;
+
+    if (x > y)
+    {
+        cout << x << endl;
+    }
+    else
+    {
+        cout << y << endl;
+    }
 }
