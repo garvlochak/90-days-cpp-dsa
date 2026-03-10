@@ -2,13 +2,38 @@
 
 #include <iostream>
 using namespace std;
-int main(){
+
+int main()
+{
     int n;
-    cin>>n;
-    if (n%2==0){
-        cout<<"Even";
+    cin >> n;
+
+    if (n % 2 == 0)
+    {
+        cout << "Even" << endl;
     }
-    else{
-        cout<<"Odd";
+    else
+    {
+        cout << "Odd" << endl;
+    }
+}
+
+//Program 2: Check eligibility to vote
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    cin >> age;
+
+    if (age >= 18)
+    {
+        cout << "Eligible" << endl;
+    }
+    else
+    {
+        cout << "Not eligible "<< endl;
     }
 }
