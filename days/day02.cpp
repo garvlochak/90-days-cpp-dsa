@@ -1,10 +1,9 @@
-//Program 1: Even/Odd 
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
+    // Program 1: Even / Odd
     int n;
     cin >> n;
 
@@ -17,9 +16,7 @@ int main()
         cout << "Odd" << endl;
     }
 
-
-//Program 2: Check eligibility to vote
-
+    // Program 2: Voting eligibility
     int age;
     cin >> age;
 
@@ -29,6 +26,6 @@ int main()
     }
     else
     {
-        cout << "Not eligible "<< endl;
+        cout << "Not eligible" << endl;
     }
 }
