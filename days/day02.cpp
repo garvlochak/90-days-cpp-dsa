@@ -20,11 +20,6 @@ int main()
 
 //Program 2: Check eligibility to vote
 
-#include <iostream>
-using namespace std;
-
-int main()
-{
     int age;
     cin >> age;
 
