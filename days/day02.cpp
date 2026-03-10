@@ -16,7 +16,7 @@ int main()
     {
         cout << "Odd" << endl;
     }
-}
+
 
 //Program 2: Check eligibility to vote
 
