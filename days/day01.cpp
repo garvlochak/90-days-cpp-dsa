@@ -4,24 +4,24 @@ using namespace std;
 int main() {
     //Program 1:Sum of two numbers 
     int a,b;
-    cin>>a>>b;
-    cout<<a+b<<endl;
+    cin >> a>> b;
+    cout << a+b << endl;
 
     //Program 2: Square of a number
     int n;
-    cin>>n;
-    cout<<n*n<<endl;
+    cin >> n;
+    cout << n*n << endl;
 
 
     //Program 3:Triple of a number
     int c;
-    cin>>c;
-    cout<<c*3<<endl;
+    cin >> c;
+    cout << c*3 << endl;
 
 
-    //Area of a rectangle
+    //Program 4:Area of a rectangle
     double length,breadth;
-    cin>>length>>breadth;
-    cout<<length*breadth<<endl;
+    cin >> length >> breadth;
+    cout << length*breadth << endl;
 
 }
