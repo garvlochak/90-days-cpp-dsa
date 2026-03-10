@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     //Program 1:Sum of two numbers 
     int a,b;
-    cin >> a>> b;
+    cin >> a >> b;
     cout << a+b << endl;
 
     //Program 2: Square of a number
